@@ -32,3 +32,8 @@ $shrek = new Movie('Shrek', '2001', 'Fantasy', 5);
 
 
 var_dump($starWars);
+var_dump($shrek);
+
+$shrek->imgPathSet('https://pad.mymovies.it/filmclub/2001/05/033/locandina.jpg');
+
+var_dump($shrek);
