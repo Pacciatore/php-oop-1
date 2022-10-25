@@ -21,3 +21,9 @@ class Movie
     }
 
 
+    public function imgPathSet($path)
+    {
+        $this->imgPath = $path;
+    }
+}
+
