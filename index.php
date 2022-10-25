@@ -27,3 +27,8 @@ class Movie
     }
 }
 
+$starWars = new Movie('Star Wars', '1978', 'Sci-Fi', 4);
+$shrek = new Movie('Shrek', '2001', 'Fantasy', 5);
+
+
+var_dump($starWars);
